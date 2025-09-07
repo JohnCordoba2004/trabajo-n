@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__logo">POP_IT_STORE.COM</div>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">SOBRE NOSOTROS</li>
+        <li class="header__item">DESCUENTOS</li>
+        <li class="header__item">CONTACTOS</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <div class="hero__content">
+      <h1 class="hero__title">POP IT!</h1>
+      <p class="hero__text">¡El mejor juguete antiestrés - película de burbujas infinitas!</p>
+      <button class="hero__button">COMPRAR</button>
+    </div>
+
+    <div class="hero__image-wrapper">
+      <img src="assets/background.png" alt="Pop It" class="hero__image">
+    </div>
+  </section>
+
+  <section class="about">
+    <h2 class="about__title">¿Qué es Pop It?</h2>
+    <p class="about__text">
+      Pop It literalmente significa 'hazlo estallar'. Es un juguete infantil cuyo proceso se puede comparar con explotar el plástico de burbujas de embalaje. Sin embargo, a diferencia del plástico de burbujas, con Pop It puedes presionar y hacer sonidos 'infinitamente' - las burbujas de silicona simplemente se empujan hacia el otro lado.
+    </p>
+  </section>
+
+  <section class="products">
+    <h2 class="products__title">¡Elige tu Pop-It!</h2>
+    <div class="products__wrapper">
+      <div class="products__container">
+        <div class="products__card">
+          <img src="assets/square.png" alt="Pop It Cuadrado" class="products__image">
+          <h3 class="products__card-title">Multicolor Cuadrado</h3>
+          <a href="/" class="products__button">COMPRAR</a>
+        </div>
+
+        <div class="products__card">
+          <img src="assets/amongus.png" alt="Pop It Among Us" class="products__image">
+          <h3 class="products__card-title">Among Us, Marmoleado</h3>
+          <a href="/" class="products__button">COMPRAR</a>
+        </div>
+
+        <div class="products__card">
+          <img src="assets/round.png" alt="Pop It Circular" class="products__image">
+          <h3 class="products__card-title">Multicolor Circular</h3>
+          <a href="/" class="products__button">COMPRAR</a>
+        </div>
+      </div>
+      
+      <div class="products__navigation">
+        <button class="products__button-nav products__button--prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="products__button-nav products__button--next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="products__indicators">
+        <span class="products__dot active" data-slide="0"></span>
+        <span class="products__dot" data-slide="1"></span>
+        <span class="products__dot" data-slide="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="rules">
+    <div class="rules__container">
+      <div class="rules__content">
+        <h2 class="rules__title">Reglas del juego</h2>
+        <p class="rules__text">
+          Los jugadores se turnan y presionan las burbujas. Es obligatorio completar la fila que comenzaste.
+          Se pueden presionar máximo 3 burbujas a la vez (deben estar en fila, no se pueden presionar varias
+          burbujas si no están alineadas). El objetivo es hacer que el oponente sea el último en jugar.
+          ¡El que juega último - pierde!
+        </p>
+      </div>
+      <div class="rules__image-wrapper">
+        <img src="assets/photo.jpg" alt="Demonstración del juego Pop It" class="rules__image">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__logo">POP_IT_STORE.COM</div>
+    <div class="footer__links">
+      <a href="/" class="footer__link">Métodos de pago</a>
+      <a href="/" class="footer__link">Entrega</a>
+      <a href="/" class="footer__link">Mayoreo</a>
+      <a href="/" class="footer__link">Contactos</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/74de10ced3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
